@@ -7,6 +7,7 @@ import Dehemi_Weerakoon_meta from "../../../pages/Dehemi_Weerakoon/_meta.js";
 import Dilshana_Ranawake_meta from "../../../pages/Dilshana_Ranawake/_meta.js";
 import Mihitha_Wanniarachchi_meta from "../../../pages/Mihitha_Wanniarachchi/_meta.js";
 import Pawan_Pinsara_meta from "../../../pages/Pawan_Pinsara/_meta.js";
+import Tharindu_Damruwan_meta from "../../../pages/Tharindu_Damruwan/_meta.js";
 import Tharusha_meta from "../../../pages/Tharusha/_meta.js";
 import Viduruwan_meta from "../../../pages/Viduruwan/_meta.js";
 export const pageMap = [{
@@ -139,6 +140,19 @@ export const pageMap = [{
     frontMatter: {
       "title": "Pawan Perera's Profile",
       "description": "Learn more about Pawan Perera, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
+    }
+  }]
+}, {
+  name: "Tharindu_Damruwan",
+  route: "/Tharindu_Damruwan",
+  children: [{
+    data: Tharindu_Damruwan_meta
+  }, {
+    name: "about",
+    route: "/Tharindu_Damruwan/about",
+    frontMatter: {
+      "title": "Tharindu Damruwan's Profile",
+      "description": "Learn more about Tharindu Damruwan, a passionate Computer Science student specializing in Artificial Intelligence at the University of Kelaniya."
     }
   }]
 }, {
